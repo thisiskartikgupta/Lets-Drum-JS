@@ -1,0 +1,20 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-image {
+    background-image: url("./resource/background.jpg");
+    z-index: auto;
+    width: 100%;
+    height: 1000px;
+    background-size: contain;
+}
+
+footer {
+    margin: 2% 5%;
+}
