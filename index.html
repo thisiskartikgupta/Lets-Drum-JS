@@ -7,6 +7,7 @@
         <meta name="author" content="Kartik Gupta">
         <meta name=”robots” content=”index, follow”>
         <meta name="description" content="Try relaxing yourself with beats of Let's Drum">
+        <meta name="keywords" content="javascript,learn,drum,relax,fun,Kartik,Gupta,github,pages,project" >
 
         
         <title>Let's Drum</title>
@@ -25,19 +26,31 @@
 
         <main>
 
-            <div class="key-l playing"><kbd>A</kbd></div>
-            <div class="key-l"><kbd>S</kbd></div>
-            <div class="key-l"><kbd>D</kbd></div>
-            <div class="key-l"><kbd>F</kbd></div>
+            <div class="key-l" data-key="65"><kbd>A</kbd></div>
+            <div class="key-l" data-key="83"><kbd>S</kbd></div>
+            <div class="key-l" data-key="68"><kbd>D</kbd></div>
+            <div class="key-l" data-key="70"><kbd>F</kbd></div>
 
             <img id="bg-image" src="resource/background.png" alt="background image"/>
 
-            <div class="key-r"><kbd>L</kbd></div>
-            <div class="key-r"><kbd>J</kbd></div>
-            <div class="key-r"><kbd>K</kbd></div>
-            <div class="key-r"><kbd>H</kbd></div>
+            <div class="key-r" data-key="76"><kbd>L</kbd></div>
+            <div class="key-r" data-key="75"><kbd>K</kbd></div>
+            <div class="key-r" data-key="74"><kbd>J</kbd></div>
+            <div class="key-r" data-key="72"><kbd>H</kbd></div>
 
-            <div class="key-space"><kbd>SPACE</kbd></div>
+            <div class="key-space" data-key="32"><kbd>SPACE</kbd></div>
+
+            <audio data-key="65" src="./sounds/clap.wav"></audio>
+            <audio data-key="83" src="./sounds/hihat.wav"></audio>
+            <audio data-key="68" src="./sounds/kick.wav"></audio>
+            <audio data-key="70" src="./sounds/openhat.wav"></audio>
+
+            <audio data-key="76" src="./sounds/ride.wav"></audio>
+            <audio data-key="75" src="./sounds/snare.wav"></audio>
+            <audio data-key="74" src="./sounds/tom.wav"></audio>
+            <audio data-key="72" src="./sounds/tink.wav"></audio>
+
+            <audio data-key="32" src="./sounds/boom.wav"></audio>
 
         </main>
 

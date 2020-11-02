@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap'); /* main title h2 font */
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap'); /* Developement credits font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); /*footer text */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); /* footer text */
 
 *{
     box-sizing: border-box;
@@ -29,14 +29,14 @@ main {
 }
 
 .key-l{
-    height: 600px;
+    height: 545px;
     max-width: 200px;
     float: left;   
-    padding-top: 300px;
+    padding-top: 270px;
     font-size: 56px;
     color: #3e1dbb;
     background-color: #000;
-    margin-left: 15px;
+    margin-left: 20px;
     padding-left: 30px;
     padding-right: 30px;
     border-style: solid;
@@ -45,15 +45,34 @@ main {
 
 }
 
-.key-l.playing{
-    height: 600px;
+.key-l:hover {
+    transform: scale(1.1);
+    height: 545px;
     max-width: 200px;
     float: left;   
-    padding-top: 300px;
+    padding-top: 280px;
     font-size: 56px;
     color: #000;
     background-color: #3e1dbb;
-    margin-left: 15px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #3e1dbb;
+    border-width: 5px;
+    box-shadow: 20px #3e1dbb;
+}
+
+.key-l.playing{
+    transform: scale(1.1);
+    height: 545px;
+    max-width: 200px;
+    float: left;   
+    padding-top: 280px;
+    font-size: 56px;
+    color: #000;
+    background-color: #3e1dbb;
+    margin-left: 20px;
     padding-left: 30px;
     padding-right: 30px;
     border-style: solid;
@@ -64,35 +83,98 @@ main {
 #bg-image {
     display: inline;
     align-items: center;
+    height: 545px;
 }
 
 .key-r{
-    height: 600px;
+    height: 545px;
     max-width: 200px;
     float: right;   
-    padding-top: 300px;
+    padding-top: 270px;
     font-size: 56px;
     background-color: #000;
-    margin-right: 15px;
+    margin-right: 20px;
     padding-left: 30px;
     padding-right: 30px;
     border-style: solid;
     border-color: #3e1dbb;
     border-width: 5px;
-    color:#3e1dbb
+    color:#3e1dbb;
+}
+
+.key-r:hover {
+    height: 545px;
+    max-width: 200px;
+    float: right;   
+    padding-top: 280px;
+    font-size: 56px;
+    background-color: #3e1dbb;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #3e1dbb;
+    border-width: 5px;
+    color:#000;
+    transform: scale(1.1);
+}
+
+.key-r.playing{
+    height: 545px;
+    max-width: 200px;
+    float: right;   
+    padding-top: 280px;
+    font-size: 56px;
+    background-color: #3e1dbb;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #3e1dbb;
+    border-width: 5px;
+    color:#000;
+    transform: scale(1.1);
 }
 
 .key-space {
     background-color: #000;
-    max-width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    max-width: 40%;
+    margin-left: 35%;
+    margin-right: 35%;
     height: 70px;
     font-size: 56px;
     border-style: solid;
     border-color: #3e1dbb;
     border-width: 5px;
     color:#3e1dbb;
+}
+
+.key-space.playing {
+    background-color: #3e1dbb;
+    max-width: 40%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 70px;
+    font-size: 56px;
+    border-style: solid;
+    border-color: #3e1dbb;
+    border-width: 5px;
+    color:#000;
+    transform: scale(1.1);
+}
+
+.key-space:hover {
+    background-color: #3e1dbb;
+    max-width: 40%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 70px;
+    font-size: 56px;
+    border-style: solid;
+    border-color: #3e1dbb;
+    border-width: 5px;
+    color:#000;
+    transform: scale(1.1);
 }
 
 footer {
