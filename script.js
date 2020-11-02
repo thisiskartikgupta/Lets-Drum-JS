@@ -2,6 +2,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
     alert("Since phones don't have keyboards. You may not have a pleasant experience.");
 }
 
+alert("Please wait for the site to load");
+
 window.addEventListener("keydown", function(f) {
 
     let audio = document.querySelector(`audio[data-key="${f.keyCode}"]`);
