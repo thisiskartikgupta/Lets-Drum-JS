@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap'); /* main title h2 font */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap'); /* Developement credits font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); /*footer text */
 
 *{
     box-sizing: border-box;
+    text-align: center;
 }
 
 .main-title {
@@ -21,19 +24,91 @@ body {
     margin: 0px;
 }
 
-.bg-image {
-    height: 600px;
-    max-width: 100%;    
+main {
+    background-color: #000;
 }
 
-kbd {
-    color: #fff;
-    font-size: 72px;
+.key-l{
+    height: 600px;
+    max-width: 200px;
+    float: left;   
+    padding-top: 300px;
+    font-size: 56px;
+    color: #3e1dbb;
+    background-color: #000;
+    margin-left: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #3e1dbb;
+    border-width: 5px;
+
+}
+
+.key-l.playing{
+    height: 600px;
+    max-width: 200px;
+    float: left;   
+    padding-top: 300px;
+    font-size: 56px;
+    color: #000;
     background-color: #3e1dbb;
-    position: absolute;
+    margin-left: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #3e1dbb;
+    border-width: 5px;
+}
+
+#bg-image {
+    display: inline;
+    align-items: center;
+}
+
+.key-r{
+    height: 600px;
+    max-width: 200px;
+    float: right;   
+    padding-top: 300px;
+    font-size: 56px;
+    background-color: #000;
+    margin-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #3e1dbb;
+    border-width: 5px;
+    color:#3e1dbb
+}
+
+.key-space {
+    background-color: #000;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 70px;
+    font-size: 56px;
+    border-style: solid;
+    border-color: #3e1dbb;
+    border-width: 5px;
+    color:#3e1dbb;
 }
 
 footer {
     background-image: linear-gradient(#000, #3e1dbb);
-    padding: 2% 0.5%;
+    padding: 2% 0.5% 2% 0%;
+}
+
+.footer-text-credits {
+    color: #fff;
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 28px;
+}
+
+.footer-text {
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }

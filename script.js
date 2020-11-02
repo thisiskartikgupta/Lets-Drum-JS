@@ -1,0 +1,1 @@
+//alert("The site is best previewed on 1920 X 1080 screen. The design is currently non-responsive. We are working on to fix this issue.");
