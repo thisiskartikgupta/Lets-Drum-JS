@@ -1,4 +1,4 @@
-[](https://github.com/thisiskartikgupta/Lets-Drum-JS/blob/main/resource/md-title.png)
+![](https://github.com/thisiskartikgupta/Lets-Drum-JS/blob/main/resource/md-title.png)
 
 An interactive drum kit developed with JS that runs directly in your browser. No plugins required.
 
