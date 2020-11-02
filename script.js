@@ -1,4 +1,6 @@
-//alert("The site is best previewed on 1920 X 1080 screen. The design is currently non-responsive. We are working on to fix this issue.");
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    alert("Since phones don't have keyboards. You may not have a pleasant experience.");
+}
 
 window.addEventListener("keydown", function(f) {
 
